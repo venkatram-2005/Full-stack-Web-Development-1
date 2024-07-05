@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>
+            Form
+        </title>
+    </head>
+    <body>
+        <h1> My First Form :) </h1>
+        <form>
+            <label> Name </label> <input type = "text" name="firstName"/> 
+            <br>
+            <label> Date of Birth </label>  <input type="date" name="DOB"/>
+            <br>
+            <label> Gender </label> 
+            <input type="radio" name="gender"/>Male
+            <input type="radio" name="gender"/>Female
+            <input type="radio" name="gender"/>Others
+            <br>
+            <label> Qualification </label>
+                <select>
+                    <option value="null"> Select </option>
+                    <option value="SSC"> SSC </option>
+                    <option value="Intermediate"> Intermediate </option>
+                    <option value="Diploma"> Diploma </option>
+                    <option value="Graduation"> Graduation </option>
+                    <option value="Post-Graduation"> Post-Graduation </option>
+                </select>
+            <br>
+            <label> Email </label> <input type="email" name="email">
+            <br>
+            <label> Phone Number </label> <input type="number" name="phonenumber">
+            <br>
+            <label> Address </label> <textarea cols="30" name="address">
+            <br>
+            <label> Languages Known </label>
+            <input type="checkbox" name="languages"/>English
+            <input type="checkbox" name="languages"/>Telugu
+            <input type="checkbox" name="languages"/>Hindi
+            <br>
+            <label> Photo </label> <input type="file" name="photo" accept="image/*" >
+            <br>
+            <input type="submit" value = "Submit">
+            <input type="reset" value = "Reset">
+        </form>
+    </body>
+</html>

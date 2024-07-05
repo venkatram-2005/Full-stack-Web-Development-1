@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title> Good Vibes Form </title>
+    </head>
+    <body style="background-color:skyblue;">
+        <center><h1> <img src="pexels-meruyert-gonullu-7317297-removebg-preview.png" width="40" height="40" align="top"> Good Vibes Form </h1></center>
+        <center><p><b>Tell us something positive that happened to you today</b></p></center>
+        <table>
+            <tr>
+                <td> Name </td>
+                <td> <input type = "text" name="firstName" placeholder="Enter Your Name"/> </th>
+            </tr>
+            <tr>
+                <td> Email </td>
+                <td> <input type="email" name="email" placeholder="Enter Your Mail ID"> </th>
+            </tr>
+            <tr>
+                <td> On Scale 1-10 , how good was it </td>
+                <td> <input type="number" name="rating" placeholder="Enter the Rating" min="1" max="10"></th>
+            </tr>
+            <tr>
+                <td> Where did it Happen ?</td>
+                <td> 
+                    <select>
+                        <option value="null"> Select </option>
+                        <option value="Vijayawada"> Vijayawada </option>
+                        <option value="Vizag"> Vizag </option>
+                        <option value="Amaravathi"> Amaravathi </option>
+                        <option value="Hyderabad"> Hyderabad </option>
+                        <option value="Banglore"> Banglore </option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <td> Date </td>
+                <td> <input type="date" name="DOB"/> </th>
+            </tr>
+            <tr>
+                <td> At what time of day it happens ? <br> (select all that apply) </td>
+                <td>
+                <input type="radio" name="session"/>Morning <br>
+                <input type="radio" name="session"/>Afternoon <br>
+                <input type="radio" name="session"/>Evening
+                </th>
+            </tr>
+            <tr>
+                <td> What emotions did you experience ? </td>
+                <td> 
+                    <input type="checkbox" name="emotion"/>Excited <br>
+                    <input type="checkbox" name="emotion"/>Humbled <br>
+                    <input type="checkbox" name="emotion"/>Loved <br>
+                    <input type="checkbox" name="emotion"/>Enthusiastic <br>
+                    <input type="checkbox" name="emotion"/>Elited <br>
+                </td>
+            </tr>
+            <tr>
+                <td> Please describe your positive experience </td>
+                <td> <textarea cols="70" rows=5 name="experience"></textarea></td>
+            </tr>
+            <tr>
+                <td align="right"> <input type="submit" value = "Submit"></td>
+            </tr>
+        </table>
+        
+    </body>
+</html>
